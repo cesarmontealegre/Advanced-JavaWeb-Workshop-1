@@ -1,12 +1,26 @@
-# Advanced Java Learning Project for Web Development
+# Example of Form Creation with Bootstrap 5 Using Jakarta EE and Wildfly
 
-This project is an initiative to acquire advanced knowledge in Java, specifically focused on web development. This is the first project in a series of exercises and challenges that will be undertaken as part of this learning.
+This is a sample project designed to help beginner developers understand the parts and technologies used in creating web applications with Bootstrap 5, Jakarta EE, and Wildfly. The sample application is a simple form application that uses Bootstrap 5 for the user interface.
 
-## Project Objectives
+## Technologies Used
+The sample application uses several technologies, including:
 
-The objectives of this project are as follows:
+- Bootstrap 5: For UI design and styling.
+- Jakarta EE: To provide the application framework.
+- Wildfly: As a Java application server.
 
-- Learn advanced Java fundamentals for web development
-- Apply acquired knowledge in creating a web application
-- Practice teamwork using collaboration tools such as Git and GitHub
-- Strengthen problem-solving and debugging skills in application development
+The technical implementation of the application uses several Jakarta EE technologies, including:
+
+- Servlets: To handle client requests.
+- JSP: To generate dynamic web pages.
+- JPA: To access and manipulate application data in the database.
+
+## How to Run the Project
+To run the project, you will need to follow these steps:
+
+1. Clone or download this repository to your local machine.
+2. Import the project into your preferred Java IDE.
+3. Ensure that Wildfly is installed on your local machine.
+4. Configure the Wildfly server in your Java IDE.
+5. Deploy the application to the Wildfly server.
+6. Open a web browser and go to the URL `http://localhost:"configured port"` to access the application.
